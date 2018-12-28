@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+*{
+	outline: none;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	font-family: 'Major Mono Display', monospace;
+	font-weight: 400;
+	font-size: 27px;
+	background-image: url(../images/bgapp.png);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+
+.chamada{
+	width: 1500px;
+	padding: 0 40px;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 10px;
+}
+.chamada img{
+	width: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.chamada p span, .chamada h1 span{
+	display: inline;
+	position: relative;
+	padding: 5px 20px;
+	background-color: #b3aca0;
+}
+
+.chamada a {
+	display: inline-block;
+	background-color: #fe0000;
+	padding: 5px;
+	color: #FFF;
+	text-decoration: none;
+	will-change: background-color;
+	transition: background-color .2s ease-in-out;
+}
+.chamada a:hover{
+	background-color: transparent;
+}
+
+.chamada span.restart{
+	position: absolute;
+	display: none;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: -60px;
+	width: 505px;
+	color: #33FD33;
+	background-color: #000;
+}
