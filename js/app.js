@@ -47,9 +47,9 @@ handleInput(bt){
 
           case 'up':                        
           this.y-= (this.y <= 70 ) ? -280 : 70;
-          this.x = (this.y === 350 ) ? 202: this.x;
+          this.x = (this.y === 420 ) ? 202: this.x;
 
-          if(this.y === 350 && this.x === 202)
+          if(this.y === 420 && this.x === 202)
           this.pontos++; 
 
           break;
